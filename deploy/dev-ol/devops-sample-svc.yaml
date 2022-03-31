@@ -1,11 +1,11 @@
-apiVersion: apps/v1
+apiVersion: v1
 kind: Service
 metadata:
   labels:
     app: kubesphere
     component: ks-sample-dev
   name: ks-sample-dev
-  namespace: kubesphere-sample-dev
+  namespace: dmeo-project
 spec:
   ports:
     - name: http
